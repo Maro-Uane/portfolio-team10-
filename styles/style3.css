@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin:20px 20px;
+    padding:20px 20px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ body {
+    font-family: 'Mooli', sans-serif;
+    background:url(data:image/jpeg;base64,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) no-repeat; /* Remplacez cette valeur par la couleur de fond que vous souhaitez */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    }
+ 
+ p{
+     color:black;
+     font-size: 15px;
+     top:130px;
+     left:0px;
+ }
+ .encadre {
+    margin: 10px; /* Espace intérieur du cadre */
+      /* Coins arrondis du cadre */
+    width:auto;
+    height: auto;
+    padding: 100px 100px;
+    font-size:large;
+    font-weight: 600;
+ }
+ .ma_classe_image {
+     /* Vous pouvez également utiliser 'absolute' ou 'fixed' selon vos besoins */
+     margin:50px 100px;
+     width: 500px;
+     height:500px;
+ }
+ @media (max-width:1000px){
+    body{
+        flex-direction: column;
+       
+    }
+    
+ }
+ 
+
